@@ -74,7 +74,7 @@ namespace LifeSimulation
                         newField[x, y] = field[x, y];
 
                     if (hasLife)
-                        graphics.FillRectangle(Brushes.Crimson, x * resolution, y * resolution, resolution, resolution);
+                        graphics.FillRectangle(Brushes.MediumSeaGreen, x * resolution, y * resolution, resolution, resolution);
                 }
             }
             field = newField;
