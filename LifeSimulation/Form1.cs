@@ -33,11 +33,10 @@ namespace LifeSimulation
             nudResolution.Enabled = false;
             nudDensity.Enabled = false;
             resolution = (int)nudResolution.Value;
-            rows = pictureBox1.Height / resolution; // height
-            cols = pictureBox1.Width / resolution;  // width
+            rows = pictureBox1.Height / resolution; //  height
+            cols = pictureBox1.Width / resolution; // width
             field = new bool[cols, rows];           // cols and rows
-
-            Random random = new Random(); 
+            Random random = new Random(); //adasd
             for (int x = 0; x < cols; x++)
             {
                 for (int y = 0; y < rows; y++)
