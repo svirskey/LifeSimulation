@@ -35,8 +35,7 @@ namespace LifeSimulation
             resolution = (int)nudResolution.Value;
             rows = pictureBox1.Height / resolution; //  height
             cols = pictureBox1.Width / resolution; // width
-            field = new bool[cols, rows]; // cols and rows
-
+            field = new bool[cols, rows];           // cols and rows
             Random random = new Random(); //adasd
             for (int x = 0; x < cols; x++)
             {
